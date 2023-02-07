@@ -13,6 +13,7 @@ class Stage():
         self.max_life = 5
         self.life = self.max_life
 
+        self.length = 0
         self.combo = 0
 
     def get_dtime(self):
